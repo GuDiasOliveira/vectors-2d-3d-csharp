@@ -1,4 +1,4 @@
-# vectors-2d-3d-csharp
+# C# vectors-2d-3d-csharp
 
 ## Cross product
 
