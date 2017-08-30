@@ -1,5 +1,23 @@
 # C# Vectors 2D and 3D
 
+## Basic operations between vectors
+
+You can do basic operations with the vectors.
+
+```cs
+Vector3D v1 = new Vector3D(1, 2, -1);
+Vector3D v2 = new Vector3D(5, 1, -2);
+Vector3D res;
+// ...
+res = v1 + v2; // res = (X = 6, Y = 3, Z = -3)
+// ...
+res = v1 - v2; // res = (X = -4, Y = 1, Z = 1)
+// ...
+res = v1 * 3; // res = (X = 3, Y = 6, Z = -3)
+// ...
+res = v2 / 2; // res = (X = 2.5, Y = 0.5, Z = -1)
+```
+
 ## Dot product
 
 To make a dot product between two vectors, use the ```*``` operator
