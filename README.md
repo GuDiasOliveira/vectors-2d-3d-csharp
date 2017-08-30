@@ -1,5 +1,15 @@
 # C# Vectors 2D and 3D
 
+## Dot product
+
+To make a dot product between two vectors, use the ```*``` operator
+
+```cs
+Vector3D v1 = new Vector3D(1, 2, -1);
+Vector3D v2 = new Vector3D(5, 1, -2);
+double dotProduct = v1 * v2; // dotProduct = 1*5 + 2*1 + (-1)*(-2) = 9.0
+```
+
 ## Cross product
 
 To make a cross product between two vectors, use the operator ```&```
