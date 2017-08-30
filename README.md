@@ -18,6 +18,20 @@ res = v1 * 3; // res = (X = 3, Y = 6, Z = -3)
 res = v2 / 2; // res = (X = 2.5, Y = 0.5, Z = -1)
 ```
 
+```cs
+Vector2D vect1 = new Vector2D(-2, 1);
+Vector2D vect2 = new Vector2D(0.5, 2);
+Vector2D res;
+// ...
+res = vect1 + vect2; // res = (X = -1.5, Y = 3)
+// ...
+res = vect1 - vect2; // res = (X = -2.5, Y = -1)
+// ...
+res = vect1 * (-4); // res = (X = 8, Y = -4)
+// ...
+res = vect2 / 10; // res = (X = 0.05, Y = 0.2)
+```
+
 ## Dot product
 
 To make a dot product between two vectors, use the ```*``` operator
