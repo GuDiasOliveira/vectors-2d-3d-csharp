@@ -48,6 +48,18 @@ Vector3D v2 = new Vector3D(5, 1, -2);
 double dotProduct = v1 * v2; // dotProduct = 1*5 + 2*1 + (-1)*(-2) = 9.0
 ```
 
+```cs
+Vector2D v1 = new Vector2D(2, -3);
+Vector2D v2 = new Vector2D(-1, -5);
+double dotProduct = v1 * v2; // dotProduct = 2*(-1) + (-3)*(-5) = 13
+```
+
+```cs
+Vector2D v2d = new Vector2D(1, -3);
+Vector3D v3d = new Vector3D(-1, -5, 2);
+double dotProduct = v1 * v2; // dotProduct = 1*(-1) + (-3)*(-5) + 0*2 = 14
+```
+
 ## Cross product
 
 To make a cross product between two vectors, use the operator ```&```
