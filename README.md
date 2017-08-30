@@ -35,7 +35,7 @@ res = vect2 / 10; // res = (X = 0.05, Y = 0.2)
 ```cs
 Vector2D v2d = new Vector2D(1, 2);
 Vector3D v3d = new Vector3D(-1, 3, 1);
-Vector3D res = v2d + v3d; // res = (X = 1-1, Y = 2+3, Z = 0+1) = (X = 0, Y = 5, Z = 1)
+Vector3D res = v3d + v2d; // res = (X = 1-1, Y = 2+3, Z = 0+1) = (X = 0, Y = 5, Z = 1)
 ```
 
 ## Dot product
