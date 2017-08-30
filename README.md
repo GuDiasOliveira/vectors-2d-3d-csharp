@@ -70,6 +70,22 @@ Vector3D v2 = new Vector3D(-9, 0, 3);
 Vector3D v1crossv2 = v1 & v2;
 ```
 
+```cs
+Vector2D v1 = new Vector2D(-1, 0);
+Vector2D v2 = new Vector2D(8, 5);
+Vector3D v1crossv2 = v1 & v2;
+```
+
+```cs
+Vector2D v2d = new Vector2D(2, -1.42);
+Vector3D v3d = new Vector3D(1.1, 0, 0.78);
+Vector3D v1crossv2;
+// ...
+v1crossv2 = v2d & v3d;
+// ...
+v1crossv2 = v3d & v2d;
+```
+
 ## 2D Vector to 3D Vector
 
 A 2D vector is automatically converted to a 3D vector, with Z = 0.
